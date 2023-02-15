@@ -95,8 +95,10 @@ GEM
       responders
       warden (~> 1.2.3)
     erubi (1.11.0)
+    geocoder (1.8.1)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    gmaps4rails (2.1.2)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.1.5)
@@ -226,6 +228,8 @@ DEPENDENCIES
   capybara
   debug
   devise
+  geocoder
+  gmaps4rails
   importmap-rails
   jbuilder
   pg (~> 1.1)
